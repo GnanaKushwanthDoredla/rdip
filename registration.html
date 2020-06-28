@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+h1{
+text-align:center;
+}
+#logo
+{
+position:relative;
+top:10;
+left:0;
+}
+#rd
+{
+position:absolute;
+font-size:50px;
+top:100;
+right:0;
+}
+ul
+{
+list-style-type:none;
+overflow:hidden;
+background-color:black;
+}
+li
+{
+float:left;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+font-size:15px;
+text-decoration:none;
+}
+li a:hover
+{
+background-color:#111;
+}
+label
+{
+width:180px;
+padding:15px 15px 15px 15px;
+display:inline-block;
+}
+#confirm
+{
+padding-left:55px;;
+left:20px;
+}
+input[type=submit]{
+position:relative;
+bottom:auto;
+left:2em;}
+input[type=reset]
+{
+position:relative;
+bottom:auto;
+left:15em;
+}
+</style>
+</head>
+<body>
+<h1><b>REGISTRATION PAGE:</b></h1>
+<div id="logo">
+<a href="https://www.iiit.ac.in"><img src="iiit-new.png" alt="iiit-h" width="100" height="100"></a>
+</div>
+<div id="rd">
+<a href="https://serc.iiit.ac.in/rdip"><b>RDIP</b></a>
+</div>
+<ul>
+<li><a href="homepage.html"><b>Home</b></a></li>
+<li><a href="registration.html"><b>Registration Form</b></a></li>
+</ul>
+<form action="details.html" method=GET>
+<label><b>First name:</b></label>
+<input type="text" name="First name" required></br>
+<label><b>E-mail:</b></label>
+<input type="text" name="E-mail" required></br>
+<label><b>Phone No:</b></label>
+<input type="tel" name="Phone No" required></br>
+<label><b>Gender:</label>
+<input type="radio" name="Gender" value="male" id="male" required><b>Male</b>
+<input type="radio" name="Gender" value="female" id="female" required><b>Female</b>
+<input type="radio" name="Gender" value="others" id="others" required><b>Other</b></br>
+<label><b>Reason for RDIP:</b></label>
+<input type="checkbox" name="HTML" required><b>HTML</b>
+<input type="checkbox" name="CSS" required><b>CSS</b>
+<input type="checkbox" name="JavaScript" required><b>JavaScript</b></br>
+<label><b>College:</b></label>
+<input type="text" name="College" required></br>
+<div id="confirm">
+<input type="radio" required><b>I declare above details given by me are true</b></br>
+</div>
+</br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
