@@ -1,0 +1,12 @@
+.main
+{
+position:relative;
+top:0%;
+right:0%;
+}
+label
+{
+width:180px;
+paqdding:15px 15px 15px 15px;
+display:inline-block;
+}

@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="cal.js"></script>
+<link rel="stylesheet" href="forms.css">
+<script>
+console.log(validation())
+</script>
+</head>
+<body>
+<form name="myforms" onSubmit ="return validation()">
+<div>
+<label><b>Name:</b></label>
+<input type="text" id="name" name="names"></br></br>
+<span id="messages1"> </span>
+</div>
+<div>
+<label><b>PhoneNumber:</b></label>
+<input type="number" id="numbers" name="numbers"></br></br>
+<span id="messages2"> </span>
+</div>
+<div>
+<label><b>E-mail:</b></label>
+<input type="email" id="emails" name="emails"></br></br>
+<span id="messages3"> </span>
+</div>
+<input  type="submit" value="Submit" >
+</form>
+</body>
+</html>

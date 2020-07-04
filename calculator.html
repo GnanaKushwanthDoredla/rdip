@@ -1,0 +1,52 @@
+<html>
+<head>
+<script src="cal.js"></script>
+<link rel="stylesheet" href="calcstyle.css">
+<script>
+console.log(div(val))
+console.log(solve())
+console.log(clr())
+</script>
+</head>
+<body>
+<div class="main">
+<table border="1">
+<tr>
+<td colspan="4"><input type="text" class="result" id="result"/></td>
+</tr>
+<tr>
+<td><input type="button" class="button"  value="7" onclick="dis('7')"/></td>
+<td><input type="button" class="button"  value="8" onclick="dis('8')"/></td>
+<td><input type="button" class="button"  value="9" onclick="dis('9')"/></td>
+<td><input type="button" class="button"  value="*" onclick="dis('*')"/></td>
+</tr>
+</br>
+<tr>
+<td><input type="button" class="button" value="4" onclick="dis('4')"/></td>
+<td><input type="button" class="button" value="5" onclick="dis('5')"/></td>
+<td><input type="button" class="button" value="6" onclick="dis('6')"/></td>
+<td><input type="button" class="button" value="+" onclick="dis('+')"/></td>
+</tr></br>
+<tr>
+<td><input type="button" class="button"  value="1" onclick="dis('1')"/></td>
+<td><input type="button" class="button"  value="2" onclick="dis('2')"/></td>
+<td><input type="button" class="button"  value="3" onclick="dis('3')"/></td>
+<td><input type="button" class="button"  value="-" onclick="dis('-')"/></td>
+</tr></br>
+<tr>
+<td><input type="button" class="button"  value="." onclick="dis('.')"/></td>
+<td><input type="button" class="button"  value="0" onclick="dis('0')"/></td>
+<td><input type="button" class="button"  value="=" onclick="solve()"/></td>
+<td><input type="button" class="button"  value="/" onclick="dis('/')"/></td>
+</tr></br>
+<tr>
+<td><input type="button" class="button" value="abs" onclick="absolute()"/></td>
+<td><input type="button" class="button" value="sqrt" onclick="square()"/></td>
+<td><input type="button"  value="%" class="button" onclick="percent('val1','val2')"/></td>
+<td><input type="button" value="c" class="button" onclick="clr()"/></td>
+</tr></br>
+</table>
+</div>
+</body>
+</html>
+
